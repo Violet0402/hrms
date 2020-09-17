@@ -1,6 +1,6 @@
 package com.sumaojin.suzhenping.hrms.service;
 
-import com.sumaojin.suzhenping.hrms.entity.Employee;
+import com.sumaojin.suzhenping.hrms.entity.Account;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author SMJ
- * @since 2020-09-16
+ * @since 2020-09-17
  */
-public interface IEmployeeService extends IService<Employee> {
+public interface IAccountService extends IService<Account> {
 
 }

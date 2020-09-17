@@ -1,6 +1,6 @@
 package com.sumaojin.suzhenping.hrms.mapper;
 
-import com.sumaojin.suzhenping.hrms.entity.Employee;
+import com.sumaojin.suzhenping.hrms.entity.Account;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.mapstruct.Mapper;
 
@@ -10,9 +10,9 @@ import org.mapstruct.Mapper;
  * </p>
  *
  * @author SMJ
- * @since 2020-09-16
+ * @since 2020-09-17
  */
 @Mapper
-public interface EmployeeMapper extends BaseMapper<Employee> {
+public interface AccountMapper extends BaseMapper<Account> {
 
 }

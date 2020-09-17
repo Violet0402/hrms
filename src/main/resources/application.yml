@@ -8,8 +8,19 @@ spring:
     username: root
     password: root
 
+  resources:
+    static-locations: classpath:/templates/,classpath:/static/
+#  main:
+#    allow-bean-definition-overriding: true
+
 server:
   port: 9999
 
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
+
+sumaojin:
+  jwt:
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    expire: 604800
+    header: Authorization
